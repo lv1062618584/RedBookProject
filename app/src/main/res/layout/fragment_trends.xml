@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.john.myapplication.fragment.messagefragment.TrendsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/hello_blank_fragment" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="找找谁在小红书"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="和你的微薄好友一起探索小红书"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <ImageView
+                android:paddingLeft="80dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                />
+            <TextView
+                android:textSize="18dp"
+                android:textColor="#ffffffff"
+                android:background="#f20915"
+                android:text="立即前往"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View
+        android:background="#f7f7ee"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+        
+    </View>
+    
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:text="没了,别拉了"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

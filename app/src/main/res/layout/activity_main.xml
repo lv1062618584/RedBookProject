@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xcc.redbook.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/rb_buttonmenus"
+            android:drawableTop="@drawable/rb_home_selector"
+            android:text="@string/rb_txt_home"
+            android:checked="true"
+            android:textColor="@drawable/rb_text_color"
+        />
+        <RadioButton
+            android:id="@+id/rb_find"
+            style="@style/rb_buttonmenus"
+            android:drawableTop="@drawable/rb_find_selector"
+            android:text="@string/rb_txt_find"
+            android:checked="false"
+            android:textColor="@drawable/rb_text_color"
+        />
+        <RadioButton
+            android:id="@+id/rb_shopping"
+            style="@style/rb_buttonmenus"
+            android:drawableTop="@drawable/rb_shopping_selector"
+            android:text="@string/rb_txt_shopping"
+            android:checked="false"
+            android:textColor="@drawable/rb_text_color"
+        />
+        <RadioButton
+            android:id="@+id/rb_message"
+            style="@style/rb_buttonmenus"
+            android:drawableTop="@drawable/rb_message_selector"
+            android:text="@string/rb_txt_message"
+            android:checked="false"
+            android:textColor="@drawable/rb_text_color"
+        />
+        <RadioButton
+            android:id="@+id/rb_my"
+            style="@style/rb_buttonmenus"
+            android:drawableTop="@drawable/rb_my_selector"
+            android:text="@string/rb_txt_my"
+            android:checked="false"
+            android:textColor="@drawable/rb_text_color"
+        />
+    </RadioGroup>
+</FrameLayout>

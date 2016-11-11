@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.john.myapplication.fragment.MessageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f70303"
+        android:textSize="30dp"
+        android:textColor="#ffffffff"
+        android:text="消息" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_fragment_message"
+        android:layout_weight="1"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabSelectedTextColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_fragment_message"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
